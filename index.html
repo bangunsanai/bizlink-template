@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BizLink Template - Smart Landing Page for Blogger</title>
+  <meta name="description" content="Modern Blogger template for creating landing pages easily. Mobile responsive, smart landing page system, and easy customization.">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      min-height: 100vh;
+    }
+    
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+    
+    .header {
+      text-align: center;
+      padding: 60px 20px;
+      color: white;
+    }
+    
+    .header h1 {
+      font-size: 3rem;
+      margin-bottom: 15px;
+    }
+    
+    .header p {
+      font-size: 1.2rem;
+      opacity: 0.9;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+    
+    .badge {
+      display: inline-block;
+      background: rgba(255,255,255,0.2);
+      padding: 8px 20px;
+      border-radius: 50px;
+      margin-top: 20px;
+      font-size: 0.9rem;
+    }
+    
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 30px;
+      margin: 60px 0;
+    }
+    
+    .feature-card {
+      background: white;
+      border-radius: 20px;
+      padding: 30px;
+      text-align: center;
+      transition: transform 0.3s ease;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    }
+    
+    .feature-card:hover {
+      transform: translateY(-5px);
+    }
+    
+    .feature-card i {
+      font-size: 3rem;
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+      margin-bottom: 20px;
+    }
+    
+    .feature-card h3 {
+      font-size: 1.3rem;
+      margin-bottom: 10px;
+      color: #333;
+    }
+    
+    .feature-card p {
+      color: #666;
+    }
+    
+    .demo-section {
+      background: white;
+      border-radius: 20px;
+      padding: 40px;
+      margin: 40px 0;
+      text-align: center;
+    }
+    
+    .demo-section h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      color: #333;
+    }
+    
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 14px 32px;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: all 0.3s ease;
+      margin: 10px;
+    }
+    
+    .btn-primary {
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      color: white;
+    }
+    
+    .btn-primary:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    }
+    
+    .btn-outline {
+      border: 2px solid #667eea;
+      color: #667eea;
+      background: transparent;
+    }
+    
+    .btn-outline:hover {
+      background: #667eea;
+      color: white;
+    }
+    
+    .code-block {
+      background: #1e1e2e;
+      border-radius: 12px;
+      padding: 20px;
+      margin: 30px 0;
+      text-align: left;
+      overflow-x: auto;
+    }
+    
+    .code-block pre {
+      color: #e0e0e0;
+      font-family: monospace;
+      font-size: 13px;
+      white-space: pre-wrap;
+    }
+    
+    .footer {
+      text-align: center;
+      padding: 40px 20px;
+      color: rgba(255,255,255,0.8);
+      border-top: 1px solid rgba(255,255,255,0.1);
+      margin-top: 40px;
+    }
+    
+    .footer a {
+      color: white;
+      text-decoration: none;
+    }
+    
+    .footer a:hover {
+      text-decoration: underline;
+    }
+    
+    @media (max-width: 768px) {
+      .header h1 { font-size: 2rem; }
+      .features { grid-template-columns: 1fr; }
+      .btn { padding: 10px 20px; font-size: 0.9rem; }
+      .demo-section h2 { font-size: 1.5rem; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>🚀 BizLink Template</h1>
+      <p>Smart Landing Page System for Blogger | Easy, Fast, and Modern</p>
+      <div class="badge">
+        <i class="fas fa-mobile-alt"></i> Mobile Responsive &nbsp;|&nbsp;
+        <i class="fas fa-bolt"></i> Fast Loading &nbsp;|&nbsp;
+        <i class="fas fa-search"></i> SEO Friendly
+      </div>
+    </div>
+    
+    <div class="features">
+      <div class="feature-card">
+        <i class="fas fa-magic"></i>
+        <h3>Smart Landing Page</h3>
+        <p>Simply add the "landing-page" label to your post, and it will automatically display fullscreen without navbar & sidebar.</p>
+      </div>
+      <div class="feature-card">
+        <i class="fas fa-edit"></i>
+        <h3>Easy Customization</h3>
+        <p>Edit landing page content via Blogger widgets. No coding required!</p>
+      </div>
+      <div class="feature-card">
+        <i class="fas fa-crown"></i>
+        <h3>Home Landing Widget</h3>
+        <p>Special section for landing page on homepage. Fill with any HTML code.</p>
+      </div>
+    </div>
+    
+    <div class="demo-section">
+      <h2>📥 Download Template</h2>
+      <p style="color: #666; margin-bottom: 30px;">Free for personal and commercial use. Credit must be included.</p>
+      <a href="bizlink-LP-V1-free.xml" download class="btn btn-primary">
+        <i class="fas fa-download"></i> Download Template (XML)
+      </a>
+    </div>
+    
+    <div class="demo-section" style="background: #f8f9fa;">
+      <h2>📖 Installation Guide</h2>
+      <div class="code-block">
+        <pre>1. Download the bizlink-LP-V1-free.xml file
+2. Go to Blogger → Theme → Backup/Restore
+3. Click "Choose File" → Upload bizlink-LP-V1-free.xml
+4. Click "Upload" → Done!
+5. Go to Layout → Edit the "BizLink Home Landing" widget
+6. Paste your landing page HTML code</pre>
+      </div>
+      <p style="color: #666; margin-top: 20px;">💡 To create a landing page post, simply add the <strong>"landing-page"</strong> label</p>
+    </div>
+    
+    <div class="footer">
+      <p>© 2026 BizLink Template | All Rights Reserved</p>
+      <p style="margin-top: 10px; font-size: 0.85rem;">
+        <i class="fas fa-code"></i> theme by <a href="https://bizlink.my.id" target="_blank" style="color: #FFD700; font-weight: 500;">bizlink.my.id</a>
+      </p>
+      <p style="margin-top: 15px; font-size: 0.75rem;">
+        <a href="https://github.com/bangunsanai/bizlink-template" target="_blank">GitHub Repository</a>
+      </p>
+    </div>
+  </div>
+</body>
+</html>
